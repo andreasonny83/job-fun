@@ -4,12 +4,14 @@
 
 ## Table of contents
 
-*   [Installation](#installation)
-*   [Usage](#usage)
-  *   [Development](#development)
-*   [Contributing](#contributing)
-*   [Changelog](#changelog)
-*   [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+  * [Development](#development)
+  * [Firebase](#firebase)
+  * [Deployment](#deployment)
+* [Contributing](#contributing)
+* [Changelog](#changelog)
+* [License](#license)
 
 ## Installation
 
@@ -43,6 +45,24 @@ $ npm start
 ```
 
 To start the application and automatically recompile on file-changes.
+
+## Firebase
+
+This project uses Firebase as hosting provider, database and authentication solution.
+Remove the `.example` extension from the following files if you want to deploy this
+project using your Firebase account:
+`.firebaserc.example`, `database.rules.json.example` and `firebase.json.example`
+
+For initializing this project in a Firebase project use `firebase init` after you've
+installed Firebase CLI and followed the official instructions
+[available here](https://firebase.google.com/docs/hosting/)
+
+## Deployment
+
+After you've copleted the Firebase set up from the previous step, you can just run
+the follong command from your terminal to deploy the app.
+
+`npm run deploy`
 
 ## Contributing
 

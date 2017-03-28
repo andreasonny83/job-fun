@@ -24,7 +24,7 @@ import { Component, OnInit } from '@angular/core';
     </main>
 
     <footer>
-      <span>Copyright 2016-2017, <a [href]="url">andreasonny83</a>, All rights reserved.</span>
+      <span>Copyright 2017, <a [href]="url">andreasonny83</a>, All rights reserved.</span>
     </footer>
   `
 })

@@ -24,6 +24,8 @@
     "clean:install": "npm set progress=false && npm install",
     "clean:start": "npm start",
     "clean": "npm cache clean && npm run rimraf -- node_modules doc coverage dist",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy",
     "docs": "npm run typedoc -- --options typedoc.json --exclude '**/*.spec.ts' ./src/",
     "e2e:live": "npm run e2e -- --elementExplorer",
     "e2e": "npm run protractor",

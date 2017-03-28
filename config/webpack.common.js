@@ -26,7 +26,7 @@ const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
  * Webpack Constants
  */
 const METADATA = {
-  title: 'Angular2 Sonny Webpack',
+  title: 'Job Fun',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };
